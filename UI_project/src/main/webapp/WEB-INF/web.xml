@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <display-name>UI_project</display-name>
+  <welcome-file-list>
+    <welcome-file>form.html</welcome-file>
+  </welcome-file-list>
+  
+  <servlet-mapping>
+  <servlet-name>first_servlet</servlet-name>
+  <url-pattern>/fs</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>first_servlet</servlet-name>
+  <servlet-class>org.piyush.serveApp.first_servlet</servlet-class>
+  </servlet>
+  
+</web-app>
